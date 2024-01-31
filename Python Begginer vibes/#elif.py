@@ -1,5 +1,5 @@
 print()
-print("\033[33m" ,"SECURE LOGIN")
+print("\033[33m" ,"SECURE LOGIN.")
 print("\033[0m")
 username= input("Username >")
 password = input("Password >")
