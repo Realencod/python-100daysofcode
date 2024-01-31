@@ -4,8 +4,11 @@ anime = input("What's your favourite anime?")
 if anime == "one piece":
   print("Oh really?")
   print("Prove it!")
-  character = input("Name your favourite character")"""Don't mind me
-         just trying to write multiline comments"""
+  character = input("Name your favourite character") 
+  """
+  Don't mind me
+         just trying to write multiline comments
+         """
          #multiline comments don't work in python 
   if character == "luffy":
     print("You got that by pure chance!")
