@@ -1,0 +1,9 @@
+print("=======YOUR AMAZING ADVENTURE SIMULATOR=======")
+print("Answer the few questions below to generate your very own story!")
+print()
+name = input("What's your name?")
+subject = input("What's your favourite subject?")
+worst = input("Who's your worst villain?")
+print(name,"""walks into the classroom.He tries to put a calm front but his heart betrays him
+                                     lub-dub lub-dub
+          Today is the final day in highschool and the final test they're taking is""", subject, "which is his favourite but the teacher by the name","\033[31m" ,worst,"\033[0m", "threatened to ensure that" ,name, "fails")

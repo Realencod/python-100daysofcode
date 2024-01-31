@@ -1,0 +1,16 @@
+tvshow = input("What's your favourite tv show?")
+if tvshow == "avengers":
+  print("Nice taste")
+  character = input("Who's your favourite character?")
+  if character == "ironman":
+    print("You're the only true fan around!")
+  else:
+    iron = input("Iron man's better though right?")
+    if iron == "yes":
+      print("Exactly!")
+    elif iron == "no":
+      print("You should probably rewatch the series")
+    else:
+      print("Be clear please🙄")
+else:
+  print("You should probably watch avengers")

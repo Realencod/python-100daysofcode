@@ -1,0 +1,22 @@
+print("\033[33m" ,"'The pet you love'" ,"\033[0m" "generator")
+print()
+myname = input("What's your name?:")
+if myname == "keys":
+  print("Welcome siz!")
+else:
+  print("Welcome!")
+print()
+meow = input("Do you like the animal that meows?:")
+if meow == "yes":
+  print('You are a cat!')
+  print("I would sure like to know you more")
+else:
+  print("Give them a chance, they're pretty neat!")
+print()
+bark = input("Do you like the animal that barks?:")
+if bark == "yes":
+  print("You are a dog!")
+  print("Pretty insulting innit?")
+  print("Cats are better though in my opinion")
+else:
+  print("Neat!")
