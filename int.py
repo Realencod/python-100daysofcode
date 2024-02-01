@@ -1,4 +1,5 @@
 print("=======GENERATION GENERATOR========")
+#only male,female and they in yellow
 gender = input("What should I refer you as....." ,"\033[33m","male" ,"\033[0m" ,"," ,"\033[33m" ,"female" ,"\033[0m" ,"or" ,"\033[33m" ,"they?")
 year = int(input("What year were you born?"))
 if year >=1926 and year<=1946:
