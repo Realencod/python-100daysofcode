@@ -13,7 +13,7 @@ if answer >= 90 and answer <= 100:
 elif answer >= 80 and answer <= 89:
   print("PERCENTAGE:", answer, "%")
   print("GRADE:",  "A")
-  print("REMARKS: Good work...you are part of the cream..just note that you've not achieved the best possible grade yet so don't slack off!")
+  print("REMARKS: Good work...you are part of the creme de la creme..just note that you've not achieved the best possible grade yet so don't slack off!")
 elif answer >= 70 and answer <=79:
   print("PERCENTAGE:", answer, "%")
   print("GRADE:",  "B")
