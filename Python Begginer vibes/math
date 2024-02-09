@@ -1,0 +1,5 @@
+multiplication = 3.4 * 6.8
+print(multiplication)
+print()
+love = (2 ** 2) **2
+print(love)
