@@ -46,6 +46,6 @@ if fill == "marenge" or fill == "Marenge" or fill =="MARENGE":
 else:
   print("Yoou suck at this...come back when you're ready")
   print()
-  if counter >= 3:
+  if counter >= 2:
     print("Well at least you attempted...find the answer in the next line")
     print("https://kelxfy.com/kaveve-kazoze-meaning-in-sheng-lyrics-by-ngesh/")
