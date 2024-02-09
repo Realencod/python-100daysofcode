@@ -13,6 +13,7 @@ while True:
     elif counter > 4: 
       print("You're not even trying! Go get help!")
   go_on = input("Do you want to retry?")
+  print()
   if go_on =="yes" or go_on == "Yes":
     counter += 1
     continue
@@ -44,6 +45,7 @@ if fill == "marenge" or fill == "Marenge" or fill =="MARENGE":
 
 else:
   print("Yoou suck at this...come back when you're ready")
+  print()
   if counter >= 3:
-    print("At least you attempted...find the answer in the next line")
+    print("Well at least you attempted...find the answer in the next line")
     print("https://kelxfy.com/kaveve-kazoze-meaning-in-sheng-lyrics-by-ngesh/")
