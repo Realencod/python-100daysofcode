@@ -1,0 +1,5 @@
+print("\033[33m", """  HAPPY VALENTINE'S DAY!""", "\033[0m")
+name = input("What's your name?")
+valentine = input("Who do you wish a happy Valentine's day?:")
+print()
+print(name, "wishes", valentine, "a happy valentine's day!")
