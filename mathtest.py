@@ -17,7 +17,7 @@ for i in range(1, 11, 1):
 if score == 10:
     print("Wow a perfect score! You are really good at this")  
 elif score > 6 and score <= 9:
-    print("Not bad...that was a nice trial...you scored",score, "out of 10")      
+    print("Not bad...that was a nice trial...you,", name, "scored",score, "out of 10")      
 else:
     print("Really?", name, score, "out of 10 was all that you could manage?")
 
