@@ -1,0 +1,18 @@
+counter = 1
+while True:
+    print()
+    print("\033[34m" "Loop", counter, "\033[0m")
+    counter += 1
+    start = int(input("Enter the start of range>>"))
+    end = int(input("Range to end a number before>>"))
+    increment = int(input("What is your prefered increment value?>>"))
+    
+    for i in range(start, end, increment):
+      print(i)
+    goOn=input("continue?>>").lower()
+    if goOn !="yes":
+        break
+    else:
+        continue
+print()
+print("Thank you for your time!")

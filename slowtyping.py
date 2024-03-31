@@ -8,7 +8,7 @@ def print_slow(txt):
 
 print_slow("Hello. I'm feeling a bit slow today")
 print()
-print("100 Days of Code QUIZ")
+print_slow("100 Days of Code QUIZ")
 print()
 print("How many can you answer correctly?")
 ans1 = input("What language are we writing in?")

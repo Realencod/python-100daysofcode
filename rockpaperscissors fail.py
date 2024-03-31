@@ -12,13 +12,13 @@ print()
 #thee game
 
 #player 1 and 2 input
-player1 = input("Player1>")
-player2 = input("Player2>")
+player1 = input("Player1>").lower()
+player2 = input("Player2>").lower()
 print()
 
-if player1 == "r" or player1 == "R" and player2 == "r" or player2 == "R":
+if player1 == "r" and player2 == "r":
   print("A bunch of rocks rubbing against one another...what a stupid way to draw😩")
-elif player1 == "r" or player1 == "R" and player2 == "p" or player2 == "P":
+elif player1 == "r" and player2 == "p":
   print("Aand the rock is folded in the paper neatly...never to be seen again!")
   
 #apparently this code doesn't work...I'm not sure why though...I hope I'll find out why it doesn't soon enough
