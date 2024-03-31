@@ -1,9 +1,11 @@
+#input statements first trial
 group = input("Give me a collective pronoun or a group of things:")
 name = input("Give me a name of a thing or animal(In plural please😁:")
 print()
 print("No I don't think that " , group , "is a group of" ,name, "that's just weird🙄")
 print()
 print()
+#song generator
 print("=== YOUR SONG GENERATOR ===")
 print("""You'll be asked a bunch of questions
 then we'll make you up an amazing
